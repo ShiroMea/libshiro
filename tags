@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	./Makefile	/^AR = ar$/;"	m
+ARFLAGS	./Makefile	/^ARFLAGS = -crs$/;"	m
+BLACK	./color.h	/^	BLACK   = 30,$/;"	e	enum:__anon1
+BLACK_B	./color.h	/^	BLACK_B  = WHITE_F * 2,   $/;"	e	enum:__anon2
+BLACK_F	./color.h	/^	BLACK_F  = 1,              \/* 黑色 *\/$/;"	e	enum:__anon2
+BLUE	./color.h	/^	BLUE,$/;"	e	enum:__anon1
+BLUE_B	./color.h	/^	BLUE_B   = YELLOW_B * 2,  $/;"	e	enum:__anon2
+BLUE_F	./color.h	/^	BLUE_F   = YELLOW_F * 2,   \/* 蓝色 *\/$/;"	e	enum:__anon2
+B_BLACK	./color.h	/^	B_BLACK = 40,$/;"	e	enum:__anon1
+B_BLUE	./color.h	/^	B_BLUE,$/;"	e	enum:__anon1
+B_CYAN	./color.h	/^	B_CYAN,$/;"	e	enum:__anon1
+B_GREEN	./color.h	/^	B_GREEN,$/;"	e	enum:__anon1
+B_PURPLE	./color.h	/^	B_PURPLE,$/;"	e	enum:__anon1
+B_RED	./color.h	/^	B_RED,$/;"	e	enum:__anon1
+B_WHITE	./color.h	/^	B_WHITE$/;"	e	enum:__anon1
+B_YELLOW	./color.h	/^	B_YELLOW,$/;"	e	enum:__anon1
+CC	./Makefile	/^CC = gcc$/;"	m
+CD	./Makefile	/^CD = cd$/;"	m
+CFLAGS	./Makefile	/^CFLAGS = -fPIC -Wall -DVERSION='"$(VERSION)"'$/;"	m
+COLOR_H	./color.h	11;"	d
+COLOR_NUMBER	./color.h	/^} COLOR_NUMBER;$/;"	t	typeref:enum:__anon1
+CP	./Makefile	/^CP = cp$/;"	m
+CYAN	./color.h	/^	CYAN,$/;"	e	enum:__anon1
+CYAN_B	./color.h	/^	CYAN_B   = PURPLE_B * 2,  $/;"	e	enum:__anon2
+CYAN_F	./color.h	/^	CYAN_F   = PURPLE_F * 2,   \/* 青色 *\/$/;"	e	enum:__anon2
+C_NONE	./color.h	/^	C_NONE    = 6, \/* 无效的颜色 *\/$/;"	e	enum:__anon1
+DYNAMEIC	./Makefile	/^DYNAMEIC = $(SHARE).$(VERSION)$/;"	m
+FLASH	./color.h	/^	FLASH     = 5,$/;"	e	enum:__anon1
+FLASH_S	./color.h	/^	FLASH_S     = UNDERLINE_S * 2, \/* 设置闪烁 (不保证有效果) *\/$/;"	e	enum:__anon2
+GREEN	./color.h	/^	GREEN,$/;"	e	enum:__anon1
+GREEN_B	./color.h	/^	GREEN_B  = RED_B * 2,    $/;"	e	enum:__anon2
+GREEN_F	./color.h	/^	GREEN_F  = RED_F * 2,      \/* 绿色 *\/$/;"	e	enum:__anon2
+HIDE_FONT	./color.h	/^	HIDE_FONT = 8,$/;"	e	enum:__anon1
+HIDE_FONT_S	./color.h	/^	HIDE_FONT_S = REVERSE_S * 2    \/* 字体隐藏 (不保证有效果) *\/$/;"	e	enum:__anon2
+HIGHT	./color.h	/^	HIGHT     = 1,$/;"	e	enum:__anon1
+HIGHT_S	./color.h	/^	HIGHT_S     = WHITE_B * 2,     \/* 设置高亮 *\/$/;"	e	enum:__anon2
+ITALIC	./color.h	/^	ITALIC    = 3,$/;"	e	enum:__anon1
+ITALIC_S	./color.h	/^	ITALIC_S    = HIGHT_S * 2,     \/* 设置斜体 (不保证有效果) *\/$/;"	e	enum:__anon2
+LDCONFIG	./Makefile	/^LDCONFIG = ldconfig$/;"	m
+LN	./Makefile	/^LN = ln$/;"	m
+LNFLAGS	./Makefile	/^LNFLAGS = -sf$/;"	m
+MAJOR	./Makefile	/^MAJOR = 1$/;"	m
+MAJOR	./shiro.h	31;"	d
+MAN	./Makefile	/^MAN=shiro.3.gz$/;"	m
+MANPATH	./Makefile	/^MANPATH=$(prefix)\/man\/man3$/;"	m
+MINJOR	./shiro.h	34;"	d
+MKDIR	./Makefile	/^MKDIR = mkdir$/;"	m
+MKDIRFLAGS	./Makefile	/^MKDIRFLAGS = -p$/;"	m
+OBJ	./Makefile	/^OBJ = shiro.o color.o$/;"	m
+PURPLE	./color.h	/^	PURPLE,$/;"	e	enum:__anon1
+PURPLE_B	./color.h	/^	PURPLE_B = BLUE_B * 2,  $/;"	e	enum:__anon2
+PURPLE_F	./color.h	/^	PURPLE_F = BLUE_F * 2,     \/* 紫色 *\/$/;"	e	enum:__anon2
+RED	./color.h	/^	RED,$/;"	e	enum:__anon1
+RED_B	./color.h	/^	RED_B    = BLACK_B * 2,    $/;"	e	enum:__anon2
+RED_F	./color.h	/^	RED_F    = BLACK_F * 2,    \/* 红色 *\/$/;"	e	enum:__anon2
+REVERSE	./color.h	/^	REVERSE   = 7,$/;"	e	enum:__anon1
+REVERSE_S	./color.h	/^	REVERSE_S   = FLASH_S * 2,     \/* 反转颜色 *\/$/;"	e	enum:__anon2
+REVISION	./shiro.h	37;"	d
+RM	./Makefile	/^RM = rm$/;"	m
+SEED	./color.h	/^} SEED;$/;"	t	typeref:enum:__anon2
+SHARE	./Makefile	/^SHARE = libshiro.so$/;"	m
+SHIRO_H	./shiro.h	10;"	d
+SONAME	./Makefile	/^SONAME = $(SHARE).$(MAJOR)$/;"	m
+STATIC	./Makefile	/^STATIC = libshiro.a$/;"	m
+Shiro_version	./shiro.c	/^const char *Shiro_version(void)$/;"	f
+UNDERLINE	./color.h	/^	UNDERLINE = 4,$/;"	e	enum:__anon1
+UNDERLINE_S	./color.h	/^	UNDERLINE_S = ITALIC_S * 2,    \/* 设置下划线 *\/$/;"	e	enum:__anon2
+VERSION	./Makefile	/^VERSION = $(MAJOR).3.4$/;"	m
+WHITE	./color.h	/^	WHITE,$/;"	e	enum:__anon1
+WHITE_B	./color.h	/^	WHITE_B  = CYAN_B * 2,   $/;"	e	enum:__anon2
+WHITE_F	./color.h	/^	WHITE_F  = CYAN_F * 2,     \/* 白色 *\/$/;"	e	enum:__anon2
+YELLOW	./color.h	/^	YELLOW,$/;"	e	enum:__anon1
+YELLOW_B	./color.h	/^	YELLOW_B = GREEN_B * 2, $/;"	e	enum:__anon2
+YELLOW_F	./color.h	/^	YELLOW_F = GREEN_F * 2,    \/* 黄色 *\/$/;"	e	enum:__anon2
+_BLACK	./color.h	157;"	d
+_BLUE	./color.h	177;"	d
+_CLEAR	./color.h	197;"	d
+_CLS	./color.h	198;"	d
+_COLOR	./color.h	200;"	d
+_CUR	./color.h	20;"	d
+_CYAN	./color.h	187;"	d
+_FLASH	./color.h	32;"	d
+_FONT_BLACK	./color.h	155;"	d
+_FONT_BLUE	./color.h	175;"	d
+_FONT_CYAN	./color.h	185;"	d
+_FONT_GREEN	./color.h	165;"	d
+_FONT_PURPLE	./color.h	180;"	d
+_FONT_RED	./color.h	160;"	d
+_FONT_WHITE	./color.h	190;"	d
+_FONT_YELLOW	./color.h	170;"	d
+_FREE	./color.h	194;"	d
+_GREEN	./color.h	167;"	d
+_HIDE_FONT	./color.h	34;"	d
+_HIGHT	./color.h	29;"	d
+_ITALIC	./color.h	30;"	d
+_LOW_BLACK	./color.h	156;"	d
+_LOW_BLUE	./color.h	176;"	d
+_LOW_CYAN	./color.h	186;"	d
+_LOW_GREEN	./color.h	166;"	d
+_LOW_PURPLE	./color.h	181;"	d
+_LOW_RED	./color.h	161;"	d
+_LOW_WHITE	./color.h	191;"	d
+_LOW_YELLOW	./color.h	171;"	d
+_MOVEDOWN	./color.h	23;"	d
+_MOVELEFT	./color.h	24;"	d
+_MOVERIGHT	./color.h	25;"	d
+_MOVETO	./color.h	26;"	d
+_MOVEUP	./color.h	22;"	d
+_NO_CUR	./color.h	21;"	d
+_PURPLE	./color.h	182;"	d
+_RED	./color.h	162;"	d
+_REVERSE	./color.h	33;"	d
+_UNDERLINE	./color.h	31;"	d
+_WHITE	./color.h	192;"	d
+_YELLOW	./color.h	172;"	d
+change_format	./color.c	/^static char *change_format(const char *format)$/;"	f	file:
+check_variable	./color.c	/^static int check_variable(int count,char code)$/;"	f	file:
+color_start	./shiro.c	/^int color_start = 0;$/;"	v
+err_doit	./shiro.c	/^static void err_doit(int flag,const char *fmt,va_list ap)$/;"	f	file:
+file_type	./shiro.c	/^static char file_type(const mode_t mode)$/;"	f	file:
+permissions	./shiro.c	/^static char permissions(const int count)$/;"	f	file:
+point	./shiro.c	/^static void point(int address)$/;"	f	file:
+prefix	./Makefile	/^prefix = \/usr\/local$/;"	m
+retc_back	./color.c	/^static COLOR_NUMBER retc_back(SEED seed)$/;"	f	file:
+retc_font	./color.c	/^static COLOR_NUMBER retc_font(SEED seed)$/;"	f	file:
+retc_special	./color.c	/^static COLOR_NUMBER retc_special(SEED seed)$/;"	f	file:
+set_background	./color.c	/^static const char *set_background(char code)$/;"	f	file:
+set_color	./color.c	/^static char *set_color(SEED seed)$/;"	f	file:
+set_font	./color.c	/^static const char *set_font(char code)$/;"	f	file:
+set_special	./color.c	/^static const char *set_special(char code)$/;"	f	file:
+special_permissions	./shiro.c	/^static char special_permissions(const int  count)$/;"	f	file:
+sro_buff	./shiro.c	/^void sro_buff(int set)$/;"	f
+sro_choose	./shiro.c	/^int sro_choose(const char *msg,...)$/;"	f
+sro_color	./color.c	/^char *sro_color(const char *string,int start,int size,SEED seed)$/;"	f
+sro_delchar	./shiro.c	/^int sro_delchar(char *str,char ch)$/;"	f
+sro_delenter	./shiro.h	40;"	d
+sro_dprintf	./color.c	/^int sro_dprintf(int fd,const char *format,...)$/;"	f
+sro_dump	./shiro.c	/^void sro_dump(int flag,const char *fmt,...)$/;"	f
+sro_echo	./shiro.c	/^void sro_echo(int set)$/;"	f
+sro_er	./shiro.c	/^const char *sro_er(long long int number)$/;"	f
+sro_er_n	./shiro.c	/^long long int sro_er_n(const char *binary)$/;"	f
+sro_exit	./shiro.c	/^void sro_exit(int flag,const char *fmt,...)$/;"	f
+sro_filemode	./shiro.c	/^const char *sro_filemode(const mode_t mode)$/;"	f
+sro_fprintf	./color.c	/^int sro_fprintf(FILE *stream,const char *format,...)$/;"	f
+sro_fputs	./color.c	/^int sro_fputs(const char *str,FILE *stream)$/;"	f
+sro_fuzzy	./shiro.c	/^int sro_fuzzy(const char *str, const char *key)$/;"	f
+sro_getch	./shiro.c	/^int sro_getch(void)$/;"	f
+sro_msg	./shiro.c	/^void sro_msg(int flag,const char *fmt,...)$/;"	f
+sro_passwd	./shiro.c	/^int sro_passwd(const char *const passwd,char ch)$/;"	f
+sro_printf	./color.c	/^int sro_printf(const char *format,...)$/;"	f
+sro_puts	./color.c	/^int sro_puts(const char *str)$/;"	f
+sro_random	./shiro.h	42;"	d
+sro_setcolor	./color.c	/^void sro_setcolor(SEED seed)$/;"	f
+sro_snprintf	./color.c	/^int sro_snprintf(char *str,size_t size,const char *format,...)$/;"	f
+sro_sprintf	./color.c	/^int sro_sprintf(char *str,const char *format,...)$/;"	f
+sro_strlwr	./shiro.c	/^char *sro_strlwr(char *str)$/;"	f
+sro_strrev	./shiro.c	/^char *sro_strrev(char *string)$/;"	f
+sro_strupr	./shiro.c	/^char *sro_strupr(char *str)$/;"	f
